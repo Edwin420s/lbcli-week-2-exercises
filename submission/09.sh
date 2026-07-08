@@ -1,4 +1,3 @@
-#!/bin/bash
 # Create a transaction whose fee can be later updated to a higher fee if it is stuck or doesn't get mined on time
 
 # Amount of 20,000,000 satoshis to this address: 2MvLcssW49n9atmksjwg2ZCMsEMsoj3pzUP 
