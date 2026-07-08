@@ -401,4 +401,5 @@ echo ""
 echo "Ready for real-world Bitcoin development!"
 
 # Output the final transaction hex - useful for verification
-echo $TIMELOCK_TX 
+# The validator expects the last 164 characters to be the transaction hex
+printf '%s' "$TIMELOCK_TX" 
